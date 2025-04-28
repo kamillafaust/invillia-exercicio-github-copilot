@@ -2,11 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif; /* Updated to a more appealing font */
   line-height: 1.6;
   color: #333;
   max-width: 1200px;
@@ -72,6 +72,24 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  list-style: none; /* Ensures no bullet points are displayed */
+  padding-left: 0;
+}
+
+.activity-card li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  list-style-type: none; /* Explicitly removes any default list styling */
+}
+
+.participant-icon {
+  margin-right: 8px;
+  font-size: 1.2em;
+  color: #1a237e;
 }
 
 .form-group {
